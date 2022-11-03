@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: tableauserverclient
+Version: 0.23
+Summary: A Python module for working with the Tableau Server REST API.
+Author-email: Tableau <github@tableau.com>
+License: The MIT License (MIT)        
+        Copyright (c) 2016 Tableau        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: repository, https://github.com/tableau/server-client-python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.versioneer
+Requires-Dist: defusedxml (>=0.7.1)
+Requires-Dist: packaging (~=21.3)
+Requires-Dist: requests (>=2.28)
+Requires-Dist: urllib3 (~=1.26.8)
+Provides-Extra: test
+Requires-Dist: argparse ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pytest (>=7.0) ; extra == 'test'
+Requires-Dist: requests-mock (<2.0,>=1.0) ; extra == 'test'
+
+# Tableau Server Client (Python)
+
+[![Tableau Supported](https://img.shields.io/badge/Support%20Level-Tableau%20Supported-53bd92.svg)](https://www.tableau.com/support-levels-it-and-developer-tools) [![Build Status](https://github.com/tableau/server-client-python/actions/workflows/run-tests.yml/badge.svg)](https://github.com/tableau/server-client-python/actions)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftableau%2Fserver-client-python.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftableau%2Fserver-client-python?ref=badge_shield)
+
+Use the Tableau Server Client (TSC) library to increase your productivity as you interact with the Tableau Server REST API. With the TSC library you can do almost everything that you can do with the REST API, including:
+
+* Publish workbooks and data sources.
+* Create users and groups.
+* Query projects, sites, and more.
+
+This repository contains Python source code for the library and sample files showing how to use it. As of May 2022, Python versions 3.7 and up are supported.
+
+To see sample code that works directly with the REST API (in Java, Python, or Postman), visit the [REST API Samples](https://github.com/tableau/rest-api-samples) repo.
+
+For more information on installing and using TSC, see the documentation:
+<https://tableau.github.io/server-client-python/docs/>
+ 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftableau%2Fserver-client-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftableau%2Fserver-client-python?ref=badge_large)

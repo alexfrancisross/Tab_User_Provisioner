@@ -1,0 +1,10 @@
+[run]
+omit = 
+  cryptoyaml/commands.py
+  cryptoyaml/tests/*
+  cryptoyaml/testing.py
+
+[report]
+# since pytest-cov is currently falsely reporting sub-100% coverage
+# we simply disable this requirement for now :-/
+# fail_under = 100
