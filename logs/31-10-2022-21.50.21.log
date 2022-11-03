@@ -1,0 +1,124 @@
+31-10-2022 21:50:21 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 21:50:21 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 21:50:21 | INFO | Setting use_openssl_only mode to False
+31-10-2022 21:50:23 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+31-10-2022 21:50:23 | INFO | query execution done
+31-10-2022 21:50:23 | INFO | Number of results in first chunk: 26
+31-10-2022 21:50:23 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 21:50:23 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 21:50:23 | INFO | Add user a@tableaujunkie.com
+31-10-2022 21:50:24 | INFO | <Response [201]>
+31-10-2022 21:50:24 | INFO | Added new user (ID: a4c39752-ef75-474b-b2ab-c0449b4f8a5a)
+31-10-2022 21:50:24 | INFO | added new user a@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:24 | INFO | Add user b@tableaujunkie.com
+31-10-2022 21:50:24 | INFO | <Response [201]>
+31-10-2022 21:50:24 | INFO | Added new user (ID: 2fca34e0-8270-4ca2-9719-87666336a7e3)
+31-10-2022 21:50:24 | INFO | added new user b@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:24 | INFO | Add user c@tableaujunkie.com
+31-10-2022 21:50:25 | INFO | <Response [201]>
+31-10-2022 21:50:25 | INFO | Added new user (ID: 73deece6-850b-4cab-8a59-1c8b3cc2df3f)
+31-10-2022 21:50:25 | INFO | added new user c@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:25 | INFO | Add user dtableaujunkie.com
+31-10-2022 21:50:25 | ERROR | Error adding user: 
+
+	400003: Bad Request
+		Payload is either malformed or incomplete
+31-10-2022 21:50:25 | INFO | Add user e@tableaujunkie.com
+31-10-2022 21:50:25 | INFO | <Response [201]>
+31-10-2022 21:50:25 | INFO | Added new user (ID: 4b76abce-a845-4aa8-8206-360c2096075a)
+31-10-2022 21:50:25 | INFO | added new user e@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:25 | INFO | Add user f@tableaujunkie.com
+31-10-2022 21:50:26 | INFO | <Response [201]>
+31-10-2022 21:50:26 | INFO | Added new user (ID: 40c90488-b76f-479e-8d76-e1493a2f044d)
+31-10-2022 21:50:26 | INFO | added new user f@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:26 | INFO | Add user g@tableaujunkie.com
+31-10-2022 21:50:26 | INFO | <Response [201]>
+31-10-2022 21:50:26 | INFO | Added new user (ID: b422619e-2338-4ecb-b1b9-b61c9bf12dc4)
+31-10-2022 21:50:26 | INFO | added new user g@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:26 | INFO | Add user h@tableaujunkie.com
+31-10-2022 21:50:26 | INFO | <Response [201]>
+31-10-2022 21:50:26 | INFO | Added new user (ID: 8180ea65-fc8b-4f4f-95f0-b389a7a5ed5f)
+31-10-2022 21:50:26 | INFO | added new user h@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:26 | INFO | Add user i@tableaujunkie.com
+31-10-2022 21:50:27 | INFO | <Response [201]>
+31-10-2022 21:50:27 | INFO | Added new user (ID: 3c1b998a-6ce1-43ee-9a78-3fadee1f2775)
+31-10-2022 21:50:27 | INFO | added new user i@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:27 | INFO | Add user j@tableaujunkie.com
+31-10-2022 21:50:27 | INFO | <Response [201]>
+31-10-2022 21:50:27 | INFO | Added new user (ID: 7d354b33-e523-4986-8793-169f3899ebcf)
+31-10-2022 21:50:27 | INFO | added new user j@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:27 | INFO | Add user k@tableaujunkie.com
+31-10-2022 21:50:28 | INFO | <Response [201]>
+31-10-2022 21:50:28 | INFO | Added new user (ID: 3b507bc3-c07a-4473-850b-ff31c446729b)
+31-10-2022 21:50:28 | INFO | added new user k@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:28 | INFO | Add user l@tableaujunkie.com
+31-10-2022 21:50:28 | INFO | <Response [201]>
+31-10-2022 21:50:28 | INFO | Added new user (ID: e61f2165-7001-429e-8e9a-8effc2f3f460)
+31-10-2022 21:50:28 | INFO | added new user l@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:28 | INFO | Add user m@tableaujunkie.com
+31-10-2022 21:50:28 | INFO | <Response [201]>
+31-10-2022 21:50:28 | INFO | Added new user (ID: 8b7a4118-fe64-4c2a-9dfd-41a2f635706a)
+31-10-2022 21:50:28 | INFO | added new user m@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:28 | INFO | Add user n@tableaujunkie.com
+31-10-2022 21:50:29 | INFO | <Response [201]>
+31-10-2022 21:50:29 | INFO | Added new user (ID: 79c704fb-a969-4d35-a9ea-abe8c28ede63)
+31-10-2022 21:50:29 | INFO | added new user n@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:29 | INFO | Add user o@tableaujunkie.com
+31-10-2022 21:50:29 | INFO | <Response [201]>
+31-10-2022 21:50:29 | INFO | Added new user (ID: 38d744ed-1740-4bf6-8295-4ec7a4a0d9eb)
+31-10-2022 21:50:29 | INFO | added new user o@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:29 | INFO | Add user p@tableaujunkie.com
+31-10-2022 21:50:30 | INFO | <Response [201]>
+31-10-2022 21:50:30 | INFO | Added new user (ID: b104e809-73a3-43ce-937a-679d31b27ab2)
+31-10-2022 21:50:30 | INFO | added new user p@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:30 | INFO | Add user q@tableaujunkie.com
+31-10-2022 21:50:30 | INFO | <Response [201]>
+31-10-2022 21:50:30 | INFO | Added new user (ID: cc86f5ab-ffbb-43f6-8e31-6fd0a030d28f)
+31-10-2022 21:50:30 | INFO | added new user q@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:30 | INFO | Add user r@tableaujunkie.com
+31-10-2022 21:50:30 | INFO | <Response [201]>
+31-10-2022 21:50:30 | INFO | Added new user (ID: b5a36eab-07f0-49ee-a51e-a889448f606b)
+31-10-2022 21:50:30 | INFO | added new user r@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:30 | INFO | Add user s@tableaujunkie.com
+31-10-2022 21:50:31 | INFO | <Response [201]>
+31-10-2022 21:50:31 | INFO | Added new user (ID: 1cb862ab-04d4-4f55-9f8b-21379a0ef98a)
+31-10-2022 21:50:31 | INFO | added new user s@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:31 | INFO | Add user t@tableaujunkie.com
+31-10-2022 21:50:31 | INFO | <Response [201]>
+31-10-2022 21:50:31 | INFO | Added new user (ID: 3debb5a0-6c8f-4eb9-9437-de69a5e57d4c)
+31-10-2022 21:50:31 | INFO | added new user t@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:31 | INFO | Add user u@tableaujunkie.com
+31-10-2022 21:50:32 | INFO | <Response [201]>
+31-10-2022 21:50:32 | INFO | Added new user (ID: 712c6aca-76eb-4360-830a-2a53ccdd5f21)
+31-10-2022 21:50:32 | INFO | added new user u@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:32 | INFO | Add user v@tableaujunkie.com
+31-10-2022 21:50:32 | INFO | <Response [201]>
+31-10-2022 21:50:32 | INFO | Added new user (ID: cf53bb02-4f8c-4e2d-b73d-fb8a815069ba)
+31-10-2022 21:50:32 | INFO | added new user v@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:32 | INFO | Add user w@tableaujunkie.com
+31-10-2022 21:50:32 | INFO | <Response [201]>
+31-10-2022 21:50:32 | INFO | Added new user (ID: ee43f7e2-9dbf-4eac-8f13-83c943cef4b8)
+31-10-2022 21:50:32 | INFO | added new user w@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:32 | INFO | Add user x@tableaujunkie.com
+31-10-2022 21:50:33 | INFO | <Response [201]>
+31-10-2022 21:50:33 | INFO | Added new user (ID: 4ee30e02-6f94-4376-9717-7ce55c51f8ff)
+31-10-2022 21:50:33 | INFO | added new user x@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:33 | INFO | Add user y@tableaujunkie.com
+31-10-2022 21:50:33 | INFO | <Response [201]>
+31-10-2022 21:50:33 | INFO | Added new user (ID: 83bdbf76-bd72-4ffd-b199-1a94816c8ab5)
+31-10-2022 21:50:33 | INFO | added new user y@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:33 | INFO | Add user z@tableaujunkie.com
+31-10-2022 21:50:34 | INFO | <Response [201]>
+31-10-2022 21:50:34 | INFO | Added new user (ID: b7012c0d-aaa4-423e-a325-0bf6d2529a42)
+31-10-2022 21:50:34 | INFO | added new user z@tableaujunkie.com with role Unlicensed
+31-10-2022 21:50:34 | INFO | Signed out
+31-10-2022 21:50:34 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 21:50:34 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 21:50:35 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employee_Leavers"]
+31-10-2022 21:50:35 | INFO | query execution done
+31-10-2022 21:50:35 | INFO | Number of results in first chunk: 26
+31-10-2022 21:50:35 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 21:50:35 | INFO | closed
+31-10-2022 21:50:35 | INFO | No async queries seem to be running, deleting session
+31-10-2022 21:50:35 | INFO | closed
+31-10-2022 21:50:35 | INFO | No async queries seem to be running, deleting session

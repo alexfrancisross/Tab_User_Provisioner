@@ -1,0 +1,205 @@
+02-11-2022 16:20:42 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+02-11-2022 16:20:42 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+02-11-2022 16:20:42 | INFO | Setting use_openssl_only mode to False
+02-11-2022 16:20:45 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+02-11-2022 16:20:45 | INFO | query execution done
+02-11-2022 16:20:45 | INFO | Number of results in first chunk: 11
+02-11-2022 16:20:45 | INFO | get_users_from_snowflake() completed with 11 user records
+02-11-2022 16:20:45 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+02-11-2022 16:20:45 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+02-11-2022 16:20:51 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employee_Leavers"]
+02-11-2022 16:20:51 | INFO | query execution done
+02-11-2022 16:20:51 | INFO | Number of results in first chunk: 11
+02-11-2022 16:20:51 | INFO | get_users_from_snowflake() completed with 11 user records
+02-11-2022 16:20:51 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+02-11-2022 16:20:51 | INFO | Add user a@tableaujunkie.com
+02-11-2022 16:20:52 | INFO | <Response [201]>
+02-11-2022 16:20:52 | INFO | Added new user (ID: de00750f-862e-4473-a83a-08ebd25773f4)
+02-11-2022 16:20:52 | INFO | added new user a@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:52 | INFO | Add user b@tableaujunkie.com
+02-11-2022 16:20:52 | INFO | <Response [201]>
+02-11-2022 16:20:52 | INFO | Added new user (ID: 69d41485-a851-41b9-9545-ad7c248af9b1)
+02-11-2022 16:20:52 | INFO | added new user b@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:52 | INFO | Add user c@tableaujunkie.com
+02-11-2022 16:20:53 | INFO | <Response [201]>
+02-11-2022 16:20:53 | INFO | Added new user (ID: bc48d1f1-d803-427f-8590-507e7f611436)
+02-11-2022 16:20:53 | INFO | added new user c@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:53 | INFO | Add user d@tableaujunkie.com
+02-11-2022 16:20:53 | INFO | <Response [201]>
+02-11-2022 16:20:53 | INFO | Added new user (ID: dde9eac2-9328-489b-8c52-5d53c45bffed)
+02-11-2022 16:20:53 | INFO | added new user d@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:53 | INFO | Add user e@tableaujunkie.com
+02-11-2022 16:20:54 | INFO | <Response [201]>
+02-11-2022 16:20:54 | INFO | Added new user (ID: bbc0d6cb-ee92-4ccf-9d80-90a21265b9e0)
+02-11-2022 16:20:54 | INFO | added new user e@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:54 | INFO | Add user f@tableaujunkie.com
+02-11-2022 16:20:54 | INFO | <Response [201]>
+02-11-2022 16:20:54 | INFO | Added new user (ID: d352adf2-ef10-4e46-a7d1-84e4885f3824)
+02-11-2022 16:20:54 | INFO | added new user f@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:54 | INFO | Add user g@tableaujunkie.com
+02-11-2022 16:20:55 | INFO | <Response [201]>
+02-11-2022 16:20:55 | INFO | Added new user (ID: ee6b1d37-cc65-4240-b41a-b122c582f7bc)
+02-11-2022 16:20:55 | INFO | added new user g@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:55 | INFO | Add user h@tableaujunkie.com
+02-11-2022 16:20:55 | INFO | <Response [201]>
+02-11-2022 16:20:55 | INFO | Added new user (ID: 5c1a6653-44a0-46cf-a86a-e7f5afa2bc35)
+02-11-2022 16:20:55 | INFO | added new user h@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:55 | INFO | Add user i@tableaujunkie.com
+02-11-2022 16:20:56 | INFO | <Response [201]>
+02-11-2022 16:20:56 | INFO | Added new user (ID: c415fe32-be2c-4115-9681-b17eb18be2ce)
+02-11-2022 16:20:56 | INFO | added new user i@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:56 | INFO | Add user j@tableaujunkie.com
+02-11-2022 16:20:56 | INFO | <Response [201]>
+02-11-2022 16:20:56 | INFO | Added new user (ID: 7a866282-4b41-4902-886c-b5c3644af0b6)
+02-11-2022 16:20:56 | INFO | added new user j@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:56 | INFO | Add user k@tableaujunkie.com
+02-11-2022 16:20:57 | INFO | <Response [201]>
+02-11-2022 16:20:57 | INFO | Added new user (ID: b9640515-7a81-4e08-9a53-5d81beb247f2)
+02-11-2022 16:20:57 | INFO | added new user k@tableaujunkie.com with role Unlicensed
+02-11-2022 16:20:57 | INFO | Signed out
+02-11-2022 16:20:57 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+02-11-2022 16:20:57 | INFO | Querying all groups on site
+02-11-2022 16:20:57 | INFO | Querying all users on site
+02-11-2022 16:20:57 | INFO | Added user (id: de00750f-862e-4473-a83a-08ebd25773f4) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:57 | INFO | added user a@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:57 | INFO | Querying all users on site
+02-11-2022 16:20:58 | INFO | Added user (id: 69d41485-a851-41b9-9545-ad7c248af9b1) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:58 | INFO | added user b@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:58 | INFO | Querying all users on site
+02-11-2022 16:20:58 | INFO | Added user (id: bc48d1f1-d803-427f-8590-507e7f611436) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:58 | INFO | added user c@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:58 | INFO | Querying all users on site
+02-11-2022 16:20:58 | INFO | Added user (id: dde9eac2-9328-489b-8c52-5d53c45bffed) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:58 | INFO | added user d@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:58 | INFO | Querying all users on site
+02-11-2022 16:20:58 | INFO | Added user (id: bbc0d6cb-ee92-4ccf-9d80-90a21265b9e0) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:58 | INFO | added user e@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:58 | INFO | Querying all users on site
+02-11-2022 16:20:59 | INFO | Added user (id: d352adf2-ef10-4e46-a7d1-84e4885f3824) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:59 | INFO | added user f@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:59 | INFO | Querying all users on site
+02-11-2022 16:20:59 | INFO | Added user (id: ee6b1d37-cc65-4240-b41a-b122c582f7bc) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:59 | INFO | added user g@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:59 | INFO | Querying all users on site
+02-11-2022 16:20:59 | INFO | Added user (id: 5c1a6653-44a0-46cf-a86a-e7f5afa2bc35) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:20:59 | INFO | added user h@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:20:59 | INFO | Querying all users on site
+02-11-2022 16:21:00 | INFO | Added user (id: c415fe32-be2c-4115-9681-b17eb18be2ce) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:00 | INFO | added user i@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:21:00 | INFO | Querying all users on site
+02-11-2022 16:21:00 | INFO | Added user (id: 7a866282-4b41-4902-886c-b5c3644af0b6) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:00 | INFO | added user j@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:21:00 | INFO | Querying all users on site
+02-11-2022 16:21:00 | INFO | Added user (id: b9640515-7a81-4e08-9a53-5d81beb247f2) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:00 | INFO | added user k@tableaujunkie.com to Group Grant_Role_On_Sign_In
+02-11-2022 16:21:00 | INFO | Signed out
+02-11-2022 16:21:00 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+02-11-2022 16:21:00 | INFO | Querying all groups on site
+02-11-2022 16:21:01 | INFO | Querying all users on site
+02-11-2022 16:21:01 | INFO | Removed user (id: de00750f-862e-4473-a83a-08ebd25773f4) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:01 | INFO | removed user a@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:01 | INFO | Querying all users on site
+02-11-2022 16:21:01 | INFO | Removed user (id: 69d41485-a851-41b9-9545-ad7c248af9b1) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:01 | INFO | removed user b@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:01 | INFO | Querying all users on site
+02-11-2022 16:21:02 | INFO | Removed user (id: bc48d1f1-d803-427f-8590-507e7f611436) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:02 | INFO | removed user c@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:02 | INFO | Querying all users on site
+02-11-2022 16:21:02 | INFO | Removed user (id: dde9eac2-9328-489b-8c52-5d53c45bffed) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:02 | INFO | removed user d@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:02 | INFO | Querying all users on site
+02-11-2022 16:21:02 | INFO | Removed user (id: bbc0d6cb-ee92-4ccf-9d80-90a21265b9e0) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:02 | INFO | removed user e@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:02 | INFO | Querying all users on site
+02-11-2022 16:21:02 | INFO | Removed user (id: d352adf2-ef10-4e46-a7d1-84e4885f3824) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:02 | INFO | removed user f@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:02 | INFO | Querying all users on site
+02-11-2022 16:21:03 | INFO | Removed user (id: ee6b1d37-cc65-4240-b41a-b122c582f7bc) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:03 | INFO | removed user g@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:03 | INFO | Querying all users on site
+02-11-2022 16:21:03 | INFO | Removed user (id: 5c1a6653-44a0-46cf-a86a-e7f5afa2bc35) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:03 | INFO | removed user h@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:03 | INFO | Querying all users on site
+02-11-2022 16:21:03 | INFO | Removed user (id: c415fe32-be2c-4115-9681-b17eb18be2ce) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:03 | INFO | removed user i@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:03 | INFO | Querying all users on site
+02-11-2022 16:21:03 | INFO | Removed user (id: 7a866282-4b41-4902-886c-b5c3644af0b6) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:03 | INFO | removed user j@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:03 | INFO | Querying all users on site
+02-11-2022 16:21:04 | INFO | Removed user (id: b9640515-7a81-4e08-9a53-5d81beb247f2) from group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+02-11-2022 16:21:04 | INFO | removed user k@tableaujunkie.com from Group Grant_Role_On_Sign_In
+02-11-2022 16:21:04 | INFO | Signed out
+02-11-2022 16:21:04 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+02-11-2022 16:21:04 | INFO | Querying all users on site
+02-11-2022 16:21:04 | INFO | Updated user item (ID: de00750f-862e-4473-a83a-08ebd25773f4)
+02-11-2022 16:21:04 | INFO | updated user a@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:04 | INFO | Querying all users on site
+02-11-2022 16:21:05 | INFO | Updated user item (ID: 69d41485-a851-41b9-9545-ad7c248af9b1)
+02-11-2022 16:21:05 | INFO | updated user b@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:05 | INFO | Querying all users on site
+02-11-2022 16:21:05 | INFO | Updated user item (ID: bc48d1f1-d803-427f-8590-507e7f611436)
+02-11-2022 16:21:05 | INFO | updated user c@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:05 | INFO | Querying all users on site
+02-11-2022 16:21:06 | INFO | Updated user item (ID: dde9eac2-9328-489b-8c52-5d53c45bffed)
+02-11-2022 16:21:06 | INFO | updated user d@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:06 | INFO | Querying all users on site
+02-11-2022 16:21:06 | INFO | Updated user item (ID: bbc0d6cb-ee92-4ccf-9d80-90a21265b9e0)
+02-11-2022 16:21:06 | INFO | updated user e@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:06 | INFO | Querying all users on site
+02-11-2022 16:21:07 | INFO | Updated user item (ID: d352adf2-ef10-4e46-a7d1-84e4885f3824)
+02-11-2022 16:21:07 | INFO | updated user f@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:07 | INFO | Querying all users on site
+02-11-2022 16:21:07 | INFO | Updated user item (ID: ee6b1d37-cc65-4240-b41a-b122c582f7bc)
+02-11-2022 16:21:07 | INFO | updated user g@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:07 | INFO | Querying all users on site
+02-11-2022 16:21:08 | INFO | Updated user item (ID: 5c1a6653-44a0-46cf-a86a-e7f5afa2bc35)
+02-11-2022 16:21:08 | INFO | updated user h@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:08 | INFO | Querying all users on site
+02-11-2022 16:21:08 | INFO | Updated user item (ID: c415fe32-be2c-4115-9681-b17eb18be2ce)
+02-11-2022 16:21:08 | INFO | updated user i@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:08 | INFO | Querying all users on site
+02-11-2022 16:21:09 | INFO | Updated user item (ID: 7a866282-4b41-4902-886c-b5c3644af0b6)
+02-11-2022 16:21:09 | INFO | updated user j@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:09 | INFO | Querying all users on site
+02-11-2022 16:21:09 | INFO | Updated user item (ID: b9640515-7a81-4e08-9a53-5d81beb247f2)
+02-11-2022 16:21:09 | INFO | updated user k@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:09 | INFO | Signed out
+02-11-2022 16:21:09 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+02-11-2022 16:21:09 | INFO | Querying all users on site
+02-11-2022 16:21:10 | INFO | Removed single user (ID: de00750f-862e-4473-a83a-08ebd25773f4)
+02-11-2022 16:21:10 | INFO | removed user a@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:10 | INFO | Querying all users on site
+02-11-2022 16:21:10 | INFO | Removed single user (ID: 69d41485-a851-41b9-9545-ad7c248af9b1)
+02-11-2022 16:21:10 | INFO | removed user b@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:10 | INFO | Querying all users on site
+02-11-2022 16:21:11 | INFO | Removed single user (ID: bc48d1f1-d803-427f-8590-507e7f611436)
+02-11-2022 16:21:11 | INFO | removed user c@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:11 | INFO | Querying all users on site
+02-11-2022 16:21:11 | INFO | Removed single user (ID: dde9eac2-9328-489b-8c52-5d53c45bffed)
+02-11-2022 16:21:11 | INFO | removed user d@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:11 | INFO | Querying all users on site
+02-11-2022 16:21:12 | INFO | Removed single user (ID: bbc0d6cb-ee92-4ccf-9d80-90a21265b9e0)
+02-11-2022 16:21:12 | INFO | removed user e@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:12 | INFO | Querying all users on site
+02-11-2022 16:21:12 | INFO | Removed single user (ID: d352adf2-ef10-4e46-a7d1-84e4885f3824)
+02-11-2022 16:21:12 | INFO | removed user f@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:12 | INFO | Querying all users on site
+02-11-2022 16:21:12 | INFO | Removed single user (ID: ee6b1d37-cc65-4240-b41a-b122c582f7bc)
+02-11-2022 16:21:12 | INFO | removed user g@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:12 | INFO | Querying all users on site
+02-11-2022 16:21:13 | INFO | Removed single user (ID: 5c1a6653-44a0-46cf-a86a-e7f5afa2bc35)
+02-11-2022 16:21:13 | INFO | removed user h@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:13 | INFO | Querying all users on site
+02-11-2022 16:21:13 | INFO | Removed single user (ID: c415fe32-be2c-4115-9681-b17eb18be2ce)
+02-11-2022 16:21:13 | INFO | removed user i@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:13 | INFO | Querying all users on site
+02-11-2022 16:21:14 | INFO | Removed single user (ID: 7a866282-4b41-4902-886c-b5c3644af0b6)
+02-11-2022 16:21:14 | INFO | removed user j@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:14 | INFO | Querying all users on site
+02-11-2022 16:21:14 | INFO | Removed single user (ID: b9640515-7a81-4e08-9a53-5d81beb247f2)
+02-11-2022 16:21:14 | INFO | removed user k@tableaujunkie.com with role Unlicensed
+02-11-2022 16:21:14 | INFO | Signed out
+02-11-2022 16:21:14 | INFO | closed
+02-11-2022 16:21:14 | INFO | No async queries seem to be running, deleting session
+02-11-2022 16:21:15 | INFO | closed
+02-11-2022 16:21:15 | INFO | No async queries seem to be running, deleting session

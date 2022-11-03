@@ -1,0 +1,205 @@
+31-10-2022 17:27:17 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'a@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:17 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'b@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:17 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'c@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	400003: Bad Request
+		Payload is either malformed or incomplete
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'e@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'f@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'g@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'h@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'i@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'j@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:19 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'k@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'l@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'm@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'n@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'o@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'p@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'q@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'r@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 's@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 't@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:20 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'u@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:21 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'v@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:21 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'w@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:21 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'x@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:21 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'y@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:21 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'z@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:27:22 | ERROR | Error with operation ADD user: a@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '10804978-4d9f-444c-b599-0cecd26d400c' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:22 | ERROR | Error with operation ADD user: b@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'd28c784e-d6a4-4cbc-944d-5e88fd6be283' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:22 | ERROR | Error with operation ADD user: c@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '724f7c2f-7cee-402d-808a-eac3fe838bc1' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:22 | ERROR | Error with operation ADD user: c@tableaujunkie.com group: Grant_Role_On_Sign_Inlist index out of range
+31-10-2022 17:27:23 | ERROR | Error with operation ADD user: e@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '790cf3de-6f78-45a0-af56-d6a1d9bc2abc' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:23 | ERROR | Error with operation ADD user: f@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'd2303fe9-af7c-4635-815b-a1b82288bafa' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:23 | ERROR | Error with operation ADD user: g@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'ecc9dfa9-2b46-47e0-abc3-f1d3776aba1c' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:23 | ERROR | Error with operation ADD user: h@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '7b54a08f-1125-40fc-ab20-3752daf4631a' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:24 | ERROR | Error with operation ADD user: i@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '356c7ac6-d582-42ac-9bec-a72aa11773ae' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:24 | ERROR | Error with operation ADD user: j@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'ae5a5f7a-9632-41d2-af8b-f5a0fac4cb34' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:24 | ERROR | Error with operation ADD user: k@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'd1a33f04-347a-470d-96e2-cdc2bf22c87d' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:24 | ERROR | Error with operation ADD user: l@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'b6a77b3e-fced-4dd8-9934-475eba983b65' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:25 | ERROR | Error with operation ADD user: m@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '3b97b2bc-1a94-434f-a240-a01235ebab50' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:25 | ERROR | Error with operation ADD user: n@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'c299e0c1-3d02-4fe3-a1ec-14883dbc3284' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:25 | ERROR | Error with operation ADD user: o@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '5ffc5b40-9eb0-4f40-9b50-95529dd28fea' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:25 | ERROR | Error with operation ADD user: p@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '4c75af1a-a915-4ca9-b9ea-f5270ff551d0' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:26 | ERROR | Error with operation ADD user: q@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '4d207b18-c223-4420-b117-c00f4c8c1d49' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:26 | ERROR | Error with operation ADD user: r@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'c8f2e0b7-cbd8-4d4c-a519-d37e7909fb48' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:26 | ERROR | Error with operation ADD user: s@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '23d8364e-f284-490f-9d47-7ec668dc8a40' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:27 | ERROR | Error with operation ADD user: t@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '82882fde-5337-4412-aca4-5ec4fffc71b2' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:27 | ERROR | Error with operation ADD user: u@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'e1a22f67-41a0-4180-86fc-0b21717688fd' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:27 | ERROR | Error with operation ADD user: v@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '535f44c5-a714-4322-b1de-e01f79ab81b1' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:27 | ERROR | Error with operation ADD user: w@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'bd9bf616-5bfd-4da9-ae6e-5a421719ec2a' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:28 | ERROR | Error with operation ADD user: x@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '860ad83e-5e48-48a5-b58d-b720cb905e46' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:28 | ERROR | Error with operation ADD user: y@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user '83eed7bb-d71c-4ead-a157-88917f5a6f12' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'
+31-10-2022 17:27:28 | ERROR | Error with operation ADD user: z@tableaujunkie.com group: Grant_Role_On_Sign_In
+
+	409011: Resource Conflict
+		The user 'f6619be1-febb-4d9c-a0dd-b90353b9ae29' is already a member of the group 'f814c8c8-978c-4781-98e2-bf2c32baab74'

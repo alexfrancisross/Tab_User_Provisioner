@@ -1,0 +1,96 @@
+31-10-2022 21:55:15 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 21:55:15 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 21:55:15 | INFO | Setting use_openssl_only mode to False
+31-10-2022 21:55:16 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+31-10-2022 21:55:17 | INFO | query execution done
+31-10-2022 21:55:17 | INFO | Number of results in first chunk: 26
+31-10-2022 21:55:17 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 21:55:17 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 21:55:17 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 21:55:18 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employee_Leavers"]
+31-10-2022 21:55:18 | INFO | query execution done
+31-10-2022 21:55:18 | INFO | Number of results in first chunk: 26
+31-10-2022 21:55:18 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 21:55:18 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 21:55:18 | INFO | Querying all users on site
+31-10-2022 21:55:18 | INFO | Removed single user (ID: c4e16121-380e-46d3-8cb7-08d495a042b4)
+31-10-2022 21:55:18 | INFO | removed user a@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:18 | INFO | Querying all users on site
+31-10-2022 21:55:19 | INFO | Removed single user (ID: 6b15d5df-03a6-4070-b37c-c3e4debea5a6)
+31-10-2022 21:55:19 | INFO | removed user b@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:19 | INFO | Querying all users on site
+31-10-2022 21:55:19 | INFO | Removed single user (ID: 40046200-e2bb-4ed6-9d0a-6f2d9af8bf12)
+31-10-2022 21:55:19 | INFO | removed user c@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:19 | INFO | Querying all users on site
+31-10-2022 21:55:19 | ERROR | Error removing user: list index out of range
+31-10-2022 21:55:19 | INFO | Querying all users on site
+31-10-2022 21:55:19 | INFO | Removed single user (ID: 1d7d79c5-f50e-4060-95fe-295542b5b60e)
+31-10-2022 21:55:19 | INFO | removed user e@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:19 | INFO | Querying all users on site
+31-10-2022 21:55:20 | INFO | Removed single user (ID: 41b08f3d-2d7d-4f18-b817-05b1bc73c405)
+31-10-2022 21:55:20 | INFO | removed user f@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:20 | INFO | Querying all users on site
+31-10-2022 21:55:20 | INFO | Removed single user (ID: 9ca96046-c2c2-4d06-8f58-cd244d3c4709)
+31-10-2022 21:55:20 | INFO | removed user g@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:20 | INFO | Querying all users on site
+31-10-2022 21:55:20 | INFO | Removed single user (ID: 8384bf6b-35f4-4453-a1c6-0e1cd4f609f0)
+31-10-2022 21:55:20 | INFO | removed user h@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:20 | INFO | Querying all users on site
+31-10-2022 21:55:21 | INFO | Removed single user (ID: a3f0cf2c-89f2-463f-a58a-efc5a1f21931)
+31-10-2022 21:55:21 | INFO | removed user i@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:21 | INFO | Querying all users on site
+31-10-2022 21:55:21 | INFO | Removed single user (ID: 9a9a2dd3-272a-4840-924d-cbbc097c1cf4)
+31-10-2022 21:55:21 | INFO | removed user j@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:21 | INFO | Querying all users on site
+31-10-2022 21:55:21 | INFO | Removed single user (ID: efc9a956-8028-4b48-82d4-2e10374c1dc6)
+31-10-2022 21:55:21 | INFO | removed user k@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:21 | INFO | Querying all users on site
+31-10-2022 21:55:22 | INFO | Removed single user (ID: 3a1022d8-917d-484e-9e93-a259aa005a61)
+31-10-2022 21:55:22 | INFO | removed user l@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:22 | INFO | Querying all users on site
+31-10-2022 21:55:22 | INFO | Removed single user (ID: e3dc0cd0-63b7-4656-b620-70227fd7f35d)
+31-10-2022 21:55:22 | INFO | removed user m@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:22 | INFO | Querying all users on site
+31-10-2022 21:55:22 | INFO | Removed single user (ID: 5105d6fb-79bd-49ab-9dfc-438248351a4a)
+31-10-2022 21:55:22 | INFO | removed user n@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:22 | INFO | Querying all users on site
+31-10-2022 21:55:23 | INFO | Removed single user (ID: 7adfd31b-51dc-4f89-bb73-da93fa633cc3)
+31-10-2022 21:55:23 | INFO | removed user o@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:23 | INFO | Querying all users on site
+31-10-2022 21:55:23 | INFO | Removed single user (ID: 48e02ca2-f3d8-46fb-8ce0-fe48b4344345)
+31-10-2022 21:55:23 | INFO | removed user p@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:23 | INFO | Querying all users on site
+31-10-2022 21:55:23 | INFO | Removed single user (ID: ac634b37-9345-4cb6-9996-608e2713602d)
+31-10-2022 21:55:23 | INFO | removed user q@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:23 | INFO | Querying all users on site
+31-10-2022 21:55:24 | INFO | closed
+31-10-2022 21:55:24 | INFO | No async queries seem to be running, deleting session
+31-10-2022 21:55:24 | INFO | Removed single user (ID: ef32ea35-a61d-4487-9ba0-d086df56de9a)
+31-10-2022 21:55:24 | INFO | removed user r@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:24 | INFO | Querying all users on site
+31-10-2022 21:55:24 | INFO | Removed single user (ID: d7f9440a-e76d-423e-9838-399c33d909aa)
+31-10-2022 21:55:24 | INFO | removed user s@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:24 | INFO | Querying all users on site
+31-10-2022 21:55:25 | INFO | Removed single user (ID: 2e941ba9-958d-46de-b24e-f42bc5bb8978)
+31-10-2022 21:55:25 | INFO | removed user t@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:25 | INFO | Querying all users on site
+31-10-2022 21:55:25 | INFO | Removed single user (ID: 644d2d56-4dcf-49dc-a069-81d2e1704187)
+31-10-2022 21:55:25 | INFO | removed user u@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:25 | INFO | Querying all users on site
+31-10-2022 21:55:25 | INFO | Removed single user (ID: cfdb7af2-e25c-4993-bb71-ac853249fa5e)
+31-10-2022 21:55:25 | INFO | removed user v@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:25 | INFO | Querying all users on site
+31-10-2022 21:55:26 | INFO | Removed single user (ID: 919a3ed7-178f-43b3-84bd-f0cc1d188be8)
+31-10-2022 21:55:26 | INFO | removed user w@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:26 | INFO | Querying all users on site
+31-10-2022 21:55:26 | INFO | Removed single user (ID: caf3c0bf-1ab1-43c9-a13a-3f50e5797ca5)
+31-10-2022 21:55:26 | INFO | removed user x@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:26 | INFO | Querying all users on site
+31-10-2022 21:55:26 | INFO | Removed single user (ID: 6ffdd170-97d4-4690-9c16-9c1848f60b59)
+31-10-2022 21:55:26 | INFO | removed user y@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:26 | INFO | Querying all users on site
+31-10-2022 21:55:27 | INFO | Removed single user (ID: 0ed5faae-952e-415b-971a-0a7effeabf7d)
+31-10-2022 21:55:27 | INFO | removed user z@tableaujunkie.com with role Unlicensed
+31-10-2022 21:55:27 | INFO | Signed out
+31-10-2022 21:55:27 | INFO | closed
+31-10-2022 21:55:27 | INFO | No async queries seem to be running, deleting session

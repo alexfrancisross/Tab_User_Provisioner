@@ -1,0 +1,221 @@
+31-10-2022 17:23:59 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 17:23:59 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 17:23:59 | INFO | Setting use_openssl_only mode to False
+31-10-2022 17:24:01 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+31-10-2022 17:24:01 | INFO | query execution done
+31-10-2022 17:24:01 | INFO | Number of results in first chunk: 26
+31-10-2022 17:24:01 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 17:24:01 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 17:24:01 | INFO | Add user a@tableaujunkie.com
+31-10-2022 17:24:02 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'a@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:02 | INFO | Add user b@tableaujunkie.com
+31-10-2022 17:24:02 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'b@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:02 | INFO | Add user c@tableaujunkie.com
+31-10-2022 17:24:02 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'c@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:02 | INFO | Add user dtableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	400003: Bad Request
+		Payload is either malformed or incomplete
+31-10-2022 17:24:03 | INFO | Add user e@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'e@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user f@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'f@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user g@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'g@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user h@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'h@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user i@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'i@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user j@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'j@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user k@tableaujunkie.com
+31-10-2022 17:24:03 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'k@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:03 | INFO | Add user l@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'l@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user m@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'm@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user n@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'n@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user o@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'o@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user p@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'p@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user q@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'q@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user r@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'r@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user s@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 's@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user t@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 't@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user u@tableaujunkie.com
+31-10-2022 17:24:04 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'u@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:04 | INFO | Add user v@tableaujunkie.com
+31-10-2022 17:24:05 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'v@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:05 | INFO | Add user w@tableaujunkie.com
+31-10-2022 17:24:05 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'w@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:05 | INFO | Add user x@tableaujunkie.com
+31-10-2022 17:24:05 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'x@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:05 | INFO | Add user y@tableaujunkie.com
+31-10-2022 17:24:05 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'y@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:05 | INFO | Add user z@tableaujunkie.com
+31-10-2022 17:24:05 | ERROR | Error adding user: 
+
+	409017: Resource Conflict
+		User 'z@tableaujunkie.com' was already added to site 'a38ca9df-84bf-43b2-964f-7daff1d38b56'
+31-10-2022 17:24:05 | INFO | Signed out
+31-10-2022 17:24:05 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 17:24:05 | INFO | Querying all groups on site
+31-10-2022 17:24:06 | INFO | Querying all users on site
+31-10-2022 17:24:06 | INFO | Added user (id: 10804978-4d9f-444c-b599-0cecd26d400c) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:06 | INFO | added user a@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:06 | INFO | Querying all users on site
+31-10-2022 17:24:06 | INFO | Added user (id: d28c784e-d6a4-4cbc-944d-5e88fd6be283) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:06 | INFO | added user b@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:06 | INFO | Querying all users on site
+31-10-2022 17:24:06 | INFO | Added user (id: 724f7c2f-7cee-402d-808a-eac3fe838bc1) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:06 | INFO | added user c@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:06 | INFO | Querying all users on site
+31-10-2022 17:24:07 | ERROR | Error with operation ADD user: c@tableaujunkie.com group: Grant_Role_On_Sign_Inlist index out of range
+31-10-2022 17:24:07 | INFO | Querying all users on site
+31-10-2022 17:24:07 | INFO | Added user (id: 790cf3de-6f78-45a0-af56-d6a1d9bc2abc) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:07 | INFO | added user e@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:07 | INFO | Querying all users on site
+31-10-2022 17:24:07 | INFO | Added user (id: d2303fe9-af7c-4635-815b-a1b82288bafa) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:07 | INFO | added user f@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:07 | INFO | Querying all users on site
+31-10-2022 17:24:07 | INFO | Added user (id: ecc9dfa9-2b46-47e0-abc3-f1d3776aba1c) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:07 | INFO | added user g@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:07 | INFO | Querying all users on site
+31-10-2022 17:24:08 | INFO | Added user (id: 7b54a08f-1125-40fc-ab20-3752daf4631a) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:08 | INFO | added user h@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:08 | INFO | Querying all users on site
+31-10-2022 17:24:08 | INFO | Added user (id: 356c7ac6-d582-42ac-9bec-a72aa11773ae) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:08 | INFO | added user i@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:08 | INFO | Querying all users on site
+31-10-2022 17:24:08 | INFO | Added user (id: ae5a5f7a-9632-41d2-af8b-f5a0fac4cb34) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:08 | INFO | added user j@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:08 | INFO | Querying all users on site
+31-10-2022 17:24:09 | INFO | Added user (id: d1a33f04-347a-470d-96e2-cdc2bf22c87d) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:09 | INFO | added user k@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:09 | INFO | Querying all users on site
+31-10-2022 17:24:09 | INFO | Added user (id: b6a77b3e-fced-4dd8-9934-475eba983b65) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:09 | INFO | added user l@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:09 | INFO | Querying all users on site
+31-10-2022 17:24:09 | INFO | Added user (id: 3b97b2bc-1a94-434f-a240-a01235ebab50) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:09 | INFO | added user m@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:09 | INFO | Querying all users on site
+31-10-2022 17:24:09 | INFO | Added user (id: c299e0c1-3d02-4fe3-a1ec-14883dbc3284) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:09 | INFO | added user n@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:09 | INFO | Querying all users on site
+31-10-2022 17:24:10 | INFO | Added user (id: 5ffc5b40-9eb0-4f40-9b50-95529dd28fea) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:10 | INFO | added user o@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:10 | INFO | Querying all users on site
+31-10-2022 17:24:10 | INFO | Added user (id: 4c75af1a-a915-4ca9-b9ea-f5270ff551d0) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:10 | INFO | added user p@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:10 | INFO | Querying all users on site
+31-10-2022 17:24:10 | INFO | Added user (id: 4d207b18-c223-4420-b117-c00f4c8c1d49) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:10 | INFO | added user q@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:10 | INFO | Querying all users on site
+31-10-2022 17:24:10 | INFO | Added user (id: c8f2e0b7-cbd8-4d4c-a519-d37e7909fb48) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:10 | INFO | added user r@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:10 | INFO | Querying all users on site
+31-10-2022 17:24:11 | INFO | Added user (id: 23d8364e-f284-490f-9d47-7ec668dc8a40) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:11 | INFO | added user s@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:11 | INFO | Querying all users on site
+31-10-2022 17:24:11 | INFO | Added user (id: 82882fde-5337-4412-aca4-5ec4fffc71b2) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:11 | INFO | added user t@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:11 | INFO | Querying all users on site
+31-10-2022 17:24:11 | INFO | Added user (id: e1a22f67-41a0-4180-86fc-0b21717688fd) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:11 | INFO | added user u@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:11 | INFO | Querying all users on site
+31-10-2022 17:24:12 | INFO | Added user (id: 535f44c5-a714-4322-b1de-e01f79ab81b1) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:12 | INFO | added user v@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:12 | INFO | Querying all users on site
+31-10-2022 17:24:12 | INFO | Added user (id: bd9bf616-5bfd-4da9-ae6e-5a421719ec2a) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:12 | INFO | added user w@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:12 | INFO | Querying all users on site
+31-10-2022 17:24:12 | INFO | Added user (id: 860ad83e-5e48-48a5-b58d-b720cb905e46) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:12 | INFO | added user x@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:12 | INFO | Querying all users on site
+31-10-2022 17:24:12 | INFO | Added user (id: 83eed7bb-d71c-4ead-a157-88917f5a6f12) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:12 | INFO | added user y@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:12 | INFO | Querying all users on site
+31-10-2022 17:24:13 | INFO | Added user (id: f6619be1-febb-4d9c-a0dd-b90353b9ae29) to group (ID: f814c8c8-978c-4781-98e2-bf2c32baab74)
+31-10-2022 17:24:13 | INFO | added user z@tableaujunkie.com to Group Grant_Role_On_Sign_In
+31-10-2022 17:24:13 | INFO | Signed out
+31-10-2022 17:24:13 | INFO | closed
+31-10-2022 17:24:13 | INFO | No async queries seem to be running, deleting session

@@ -1,0 +1,24 @@
+31-10-2022 17:16:16 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 17:16:16 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 17:16:16 | INFO | Setting use_openssl_only mode to False
+31-10-2022 17:16:17 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+31-10-2022 17:16:17 | INFO | query execution done
+31-10-2022 17:16:17 | INFO | Number of results in first chunk: 26
+31-10-2022 17:16:17 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 17:16:17 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 17:16:17 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 17:16:19 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Leavers"]
+31-10-2022 17:16:19 | INFO | query execution done
+31-10-2022 17:16:19 | ERROR | Error getting users from Snowflake using SQL: SELECT "Email Address" FROM "Tableau_Employees_Leavers"002003 (42S02): 01a8000c-0605-0ea1-0000-0a79021cf486: SQL compilation error:
+Object '"Tableau_Employees_Leavers"' does not exist or not authorized.
+31-10-2022 17:16:19 | ERROR | Error creating user items list from Snowflake results: 'NoneType' object is not iterable
+31-10-2022 17:16:19 | INFO | get_users_from_snowflake() completed with 0 user records
+31-10-2022 17:16:19 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 17:16:19 | INFO | Querying all groups on site
+31-10-2022 17:16:19 | INFO | Signed out
+31-10-2022 17:16:20 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 17:16:20 | INFO | Signed out
+31-10-2022 17:16:20 | INFO | closed
+31-10-2022 17:16:20 | INFO | No async queries seem to be running, deleting session
+31-10-2022 17:16:20 | INFO | closed
+31-10-2022 17:16:20 | INFO | No async queries seem to be running, deleting session

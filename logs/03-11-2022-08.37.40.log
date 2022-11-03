@@ -1,0 +1,41 @@
+03-11-2022 08:37:40 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+03-11-2022 08:37:40 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+03-11-2022 08:37:40 | INFO | Setting use_openssl_only mode to False
+03-11-2022 08:37:42 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+03-11-2022 08:37:42 | INFO | query execution done
+03-11-2022 08:37:42 | INFO | Number of results in first chunk: 11
+03-11-2022 08:37:42 | INFO | get_users_from_snowflake() completed with 11 user records
+03-11-2022 08:37:42 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+03-11-2022 08:37:42 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+03-11-2022 08:37:44 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employee_Leavers"]
+03-11-2022 08:37:44 | INFO | query execution done
+03-11-2022 08:37:44 | INFO | Number of results in first chunk: 11
+03-11-2022 08:37:44 | INFO | get_users_from_snowflake() completed with 11 user records
+03-11-2022 08:37:44 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:44 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:44 | INFO | Querying all users on site
+03-11-2022 08:37:45 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:45 | INFO | Querying all users on site
+03-11-2022 08:37:45 | ERROR | Error removing user: list index out of range
+03-11-2022 08:37:45 | INFO | Signed out
+03-11-2022 08:38:08 | INFO | closed
+03-11-2022 08:38:08 | INFO | No async queries seem to be running, deleting session
+03-11-2022 08:38:08 | INFO | closed
+03-11-2022 08:38:08 | INFO | No async queries seem to be running, deleting session

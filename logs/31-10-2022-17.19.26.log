@@ -1,0 +1,22 @@
+31-10-2022 17:19:26 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 17:19:26 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 17:19:26 | INFO | Setting use_openssl_only mode to False
+31-10-2022 17:19:28 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employees_Joiners"]
+31-10-2022 17:19:29 | INFO | query execution done
+31-10-2022 17:19:29 | INFO | Number of results in first chunk: 26
+31-10-2022 17:19:29 | INFO | get_users_from_snowflake() completed with 26 user records
+31-10-2022 17:19:29 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+31-10-2022 17:19:29 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+31-10-2022 17:19:30 | INFO | query: [SELECT "Email Address" FROM "Tableau_Employee_Leavers"]
+31-10-2022 17:19:31 | INFO | query execution done
+31-10-2022 17:19:31 | INFO | Number of results in first chunk: 0
+31-10-2022 17:19:31 | INFO | get_users_from_snowflake() completed with 0 user records
+31-10-2022 17:19:32 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 17:19:32 | INFO | Querying all groups on site
+31-10-2022 17:19:32 | INFO | Signed out
+31-10-2022 17:19:32 | INFO | Signed into https://prod-uk-a.online.tableau.com as user with id 03b391ee-5cac-405d-a29d-ec7ab70e2de0
+31-10-2022 17:19:32 | INFO | Signed out
+31-10-2022 17:19:32 | INFO | closed
+31-10-2022 17:19:32 | INFO | No async queries seem to be running, deleting session
+31-10-2022 17:19:33 | INFO | closed
+31-10-2022 17:19:33 | INFO | No async queries seem to be running, deleting session
