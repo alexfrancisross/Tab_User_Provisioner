@@ -236,6 +236,10 @@ def main():
         ret = set_users_siteRole(user_list_to_unlicense, TSC.UserItem.Roles.Unlicensed)
         if (ret!=0):
             error_flag=1
+    if(settings['TASKS']['ADD_UNLICENSED_USER_GROUP_MEMBERS'] == True):
+        ret = update_user_group_members(user_list_to_unlicense, UpdateOperation.ADD, settings['TABLEAU']['GLSI_GROUP_NAME'])
+        if (ret!=0):
+            error_flag=1
     if(settings['TASKS']['REMOVE_USERS'] == True):
         ret = remove_users(user_list_to_unlicense)
         if (ret!=0):
