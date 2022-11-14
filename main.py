@@ -278,6 +278,7 @@ if settings: # if seeting read correctly
 
     ret=main()
 
+    #if there was an error in main() then send email notification with log file attached
     if (ret==1):
         send_email(settings['EMAIL']['EMAIL_HOST_USER'], settings['EMAIL']['EMAIL_HOST_PASSWORD'], settings['EMAIL']['EMAIL_FROM'], settings['EMAIL']['EMAIL_TO'], settings['EMAIL']['EMAIL_SUBJECT'], settings['EMAIL']['EMAIL_BODY'], logfile)
 
