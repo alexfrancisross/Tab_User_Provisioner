@@ -1,9 +1,0 @@
-31-10-2022 11:52:50 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
-31-10-2022 11:52:50 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
-31-10-2022 11:52:50 | INFO | Setting use_openssl_only mode to False
-31-10-2022 11:52:54 | INFO | query: [SELECT 'Email Address' FROM 'Tableau_Employees_Joiners']
-31-10-2022 11:52:54 | INFO | query execution done
-31-10-2022 11:52:54 | ERROR | Error getting users from Snowflake using SQL: SELECT 'Email Address' FROM 'Tableau_Employees_Joiners'001011 (42601): 01a7fec8-0605-02a2-0000-0a79021caa2a: SQL compilation error:
-invalid URL prefix found in: 'Tableau_Employees_Joiners'
-31-10-2022 16:53:34 | INFO | closed
-31-10-2022 16:53:34 | INFO | No async queries seem to be running, deleting session

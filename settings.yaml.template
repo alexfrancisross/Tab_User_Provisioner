@@ -12,7 +12,7 @@ TASKS:
   REMOVE_USER_GROUP_MEMBERS : True #Removes Users From Group Defined By GLSI_GROUP_NAME
   SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets User Role As A Viewer
   ADD_UNLICENSED_USER_GROUP_MEMBERS : True #Adds unlicensed users back into GLSI_GROUP_NAME in case they log back into Tableau
-  REMOVE_USERS : False #Removes Users From Tableau Cloud
+  REMOVE_USERS : False #Removes Users From Tableau Cloud 
 
 #TABLEAU ONLINE AUTHENTICATION VARIABLES
 TABLEAU:

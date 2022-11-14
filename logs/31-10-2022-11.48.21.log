@@ -1,9 +1,0 @@
-31-10-2022 11:48:21 | INFO | Snowflake Connector for Python Version: 2.8.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
-31-10-2022 11:48:21 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
-31-10-2022 11:48:21 | INFO | Setting use_openssl_only mode to False
-31-10-2022 11:48:24 | INFO | query: [SELECT 'Email Address' FROM Tableau_Employees_Joiners]
-31-10-2022 11:48:25 | INFO | query execution done
-31-10-2022 11:48:25 | ERROR | Error getting users from Snowflake using SQL: SELECT 'Email Address' FROM Tableau_Employees_Joiners002003 (42S02): 01a7fec4-0605-0206-0000-0a79021cb72a: SQL compilation error:
-Object 'TABLEAU_EMPLOYEES_JOINERS' does not exist or not authorized.
-31-10-2022 11:52:35 | INFO | closed
-31-10-2022 11:52:35 | INFO | No async queries seem to be running, deleting session
