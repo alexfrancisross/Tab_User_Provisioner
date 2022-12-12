@@ -273,6 +273,7 @@ if settings: # if seeting read correctly
                                               settings['TABLEAU']['TABLEAU_PAT'],
                                               settings['TABLEAU']['TABLEAU_SITE'])
     server= TSC.Server(settings['TABLEAU']['TABLEAU_SERVER'])
+    server.add_http_options({'verify': False})
     server.version = settings['TABLEAU']['TABLEAU_SERVER_VERSION']
     logfile = initialise_logging(settings['APP']['LOGDIR'], settings['APP']['LOG_RETENTION'])
 
@@ -281,4 +282,3 @@ if settings: # if seeting read correctly
     #if there was an error in main() then send email notification with log file attached
     if (ret==1):
         send_email(settings['EMAIL']['EMAIL_HOST_USER'], settings['EMAIL']['EMAIL_HOST_PASSWORD'], settings['EMAIL']['EMAIL_FROM'], settings['EMAIL']['EMAIL_TO'], settings['EMAIL']['EMAIL_SUBJECT'], settings['EMAIL']['EMAIL_BODY'], logfile)
-
