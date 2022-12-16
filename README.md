@@ -60,7 +60,7 @@ This will generate the files:
 `settings.yaml.aes` - encrypted copy of `settings.yaml`
 `key` - the key file to decrypt `settings.yaml.aes`
 
-You can now delete/move `settings.yaml` and run the application. to store the key file in an alternative location you will need to set the `CRYPTOYAML_SECRET` environment variable as per the cryptoyaml documentatiion [here](https://pypi.org/project/cryptoyaml/)
+You can now delete/move `settings.yaml` and run the application. to store the key file in an alternative location you will need to set the `CRYPTOYAML_SECRET` environment variable as per the cryptoyaml documentation [here](https://pypi.org/project/cryptoyaml/)
 ![image](https://user-images.githubusercontent.com/11485060/208121700-c4e2bbcb-1d78-429b-89b8-5786e52e9df3.png)
 
 
