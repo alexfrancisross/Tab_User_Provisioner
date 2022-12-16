@@ -6,7 +6,6 @@ APP:
 
 #TASKS TO RUN (True or False)
 TASKS:
-<<<<<<< HEAD
   PROVISION_USERS : True #Adds users to provision to tableau cloud/server as unlicenced
   ADD_USER_GROUP_MEMBERS : True #Adds users to provision to group defined by GLSI_GROUP_NAME
   SET_USERS_SITEROLE_AS_VIEWER : False #Sets newly added user role as a viewer
@@ -14,15 +13,6 @@ TASKS:
   SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets users to unlicense as unlicensed
   ADD_UNLICENSED_USER_GROUP_MEMBERS : False #Adds unlicensed users back into GLSI_GROUP_NAME in case they log back into Tableau
   REMOVE_USERS : False #Removes users from tableau cloud/server (providing the do not own content)
-=======
-  PROVISION_USERS : True #Adds Users To Tableau Cloud as Unlicenced
-  ADD_USER_GROUP_MEMBERS : True #Adds newly provisioned users to group defined by GLSI_GROUP_NAME
-  SET_USERS_SITEROLE_AS_VIEWER : False #Sets newly provisioned user roles to viewer (rather than unlicensed)
-  REMOVE_USER_GROUP_MEMBERS : True #Removes users in the leavers table from group defined by GLSI_GROUP_NAME
-  SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets users in the leaves table as unlicensed
-  ADD_UNLICENSED_USER_GROUP_MEMBERS : False #Adds users in the leavers table back into GLSI_GROUP_NAME in case they log back into Tableau
-  REMOVE_USERS : False #Removes users from Tableau Cloud (only works for users that do not own content)
->>>>>>> 8e4c8c7aa4e3127011a66753890ca909eabe2493
 
 #TABLEAU ONLINE AUTHENTICATION VARIABLES
 TABLEAU:
