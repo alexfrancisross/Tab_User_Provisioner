@@ -1,7 +1,7 @@
 # Tab_User_Provisioner
-A standalone Python application that automates user provisioning and decomissioning for Tableau Cloud/Server. The scripts expects a list of "joiners" and "leavers" to be provided and will automatically provising users in the joiners list as unlicensed with [Grant License On Sign In](https://help.tableau.com/current/server/en-us/grant_role.htm) (GLSI) enabled and will unlicense/remove users in the leavers list. 
+A standalone Python application that automates user provisioning and removal for Tableau Cloud/Server. The scripts expects a list of "joiners" and "leavers" to be provided and will automatically provision users in the joiners list as unlicensed with [Grant License On Sign In](https://help.tableau.com/current/server/en-us/grant_role.htm) (GLSI) enabled and will unlicense/remove users in the leavers list. 
 
-This implementation stores the "joiners" and "leavers" tables in Snowflake, but this can be overridden by writing your own function to populate the `user_list_to_provision` and `user_list_to_unlicense` lists which are simply a list of email addresses/usernames.
+This implementation expects the "joiners" and "leavers" to be sourced from tables in Snowflake, but this can be overridden by writing your own function to populate the `user_list_to_provision` and `user_list_to_unlicense` lists containing a list of email addresses/usernames.
  
 # Instructions
 [Watch the overview video](https://drive.google.com/file/d/17oLhiwM8GdT2E_eRc8zEZ5FX2r7X5NkG/view?usp=sharing)
@@ -18,5 +18,12 @@ Create a Group in Tableau Server/Cloud which will be used to set the minimum sit
 
 **Step 3**
 
-Run the 
+Ensure you have a working python 3.x installation with the following packages installed:
+`pip install tableauserverclient`
+`pip install pyyaml`
+`pip install cryptoyaml`
+`pip install snowflake-connector-python`
 
+**Step 4**
+
+Configure the `settings.yaml` file 
