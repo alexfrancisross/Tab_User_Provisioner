@@ -4,7 +4,7 @@ A standalone Python application that automates user provisioning and removal for
 This implementation expects the "joiners" and "leavers" to be sourced from tables in Snowflake, but this can be overridden by writing your own function to populate the `user_list_to_provision` and `user_list_to_unlicense` lists containing a list of email addresses/usernames.
  
 # Instructions
-[Watch the overview video](https://drive.google.com/file/d/17oLhiwM8GdT2E_eRc8zEZ5FX2r7X5NkG/view?usp=sharing)
+[Watch the overview video](https://github.com/alexfrancisross/Tab_User_Provisioner/blob/main/tab_user_provisioner.mp4)
 
 **Step 1**
 
