@@ -10,7 +10,7 @@ TASKS:
   ADD_USER_GROUP_MEMBERS : True #Adds users to provision to group defined by GLSI_GROUP_NAME
   SET_USERS_SITEROLE_AS_VIEWER : False #Sets newly added user role as a viewer
   REMOVE_USER_GROUP_MEMBERS : True #Removes users to unlicense from group defined by GLSI_GROUP_NAME
-  SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets user to unlicese as unlicensed
+  SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets users to unlicense as unlicensed
   ADD_UNLICENSED_USER_GROUP_MEMBERS : False #Adds unlicensed users back into GLSI_GROUP_NAME in case they log back into Tableau
   REMOVE_USERS : False #Removes users from tableau cloud/server (providing the do not own content)
 
