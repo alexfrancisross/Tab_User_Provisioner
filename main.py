@@ -26,21 +26,20 @@ class UpdateOperation(Enum):
 #returns a list of users to provision (based on Snowflake tables)
 def get_users_from_snowflake(table):
     user_list = []
-    conn = snowflake.connector.connect(
-        user=settings['SNOWFLAKE']['USER'],
-        password=settings['SNOWFLAKE']['PASSWORD'],
-        account=settings['SNOWFLAKE']['ACCOUNT'],
-        warehouse=settings['SNOWFLAKE']['WAREHOUSE'],
-        database=settings['SNOWFLAKE']['DATABASE'],
-        schema=settings['SNOWFLAKE']['SCHEMA']
-    )
     try:
+        conn = snowflake.connector.connect(
+            user=settings['SNOWFLAKE']['USER'],
+            password=settings['SNOWFLAKE']['PASSWORD'],
+            account=settings['SNOWFLAKE']['ACCOUNT'],
+            warehouse=settings['SNOWFLAKE']['WAREHOUSE'],
+            database=settings['SNOWFLAKE']['DATABASE'],
+            schema=settings['SNOWFLAKE']['SCHEMA']
+        )
         curs = conn.cursor()
         SQL = 'SELECT "Email Address" FROM "'+ table + '"'
         curs.execute(SQL)
     except Exception as e:
-        logging.error('Error getting users from Snowflake using SQL: ' + SQL + str(e))
-
+        logging.error('Error getting users from Snowflake: ' + str(e))
     try:
         emails = curs.fetchall()
         for email in emails:
@@ -53,102 +52,116 @@ def get_users_from_snowflake(table):
 
 def provision_users(user_list,auth_setting):
     error_flag=0
-    with server.auth.sign_in(tableau_auth):
-
-        # add the new user to the site
-        for user in user_list:
-            user.auth_setting=auth_setting
-            try:
-                newU = server.users.add(user)
-                logging.info('added new user ' + newU.name + ' with role ' + newU.site_role)
-            except Exception as e:
-                logging.error('Error adding user: ' + user.name + ' ' + str(e))
-                error_flag = 1
-                continue
+    try:
+        with server.auth.sign_in(tableau_auth):
+            # add the new user to the site
+            for user in user_list:
+                user.auth_setting=auth_setting
+                try:
+                    newU = server.users.add(user)
+                    logging.info('added new user ' + newU.name + ' with role ' + newU.site_role)
+                except Exception as e:
+                    logging.error('Error adding user: ' + user.name + ' ' + str(e))
+                    error_flag = 1
+                    continue
+    except Exception as e:
+        logging.error('Error provisioning users: ' + str(e))
+        error_flag = 1
     return error_flag
 
 def remove_users(user_list):
     error_flag=0
-    with server.auth.sign_in(tableau_auth):
-        for user in user_list:
-            # add user to Group
-            # get user to update using their username
-            try:
-                req_option = TSC.RequestOptions()
-                req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
-                                                 TSC.RequestOptions.Operator.Equals,
-                                                 user.name))
-                updateU = server.users.get(req_option)[0][0]
+    try:
+        with server.auth.sign_in(tableau_auth):
+            for user in user_list:
+                # add user to Group
+                # get user to update using their username
+                try:
+                    req_option = TSC.RequestOptions()
+                    req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
+                                                     TSC.RequestOptions.Operator.Equals,
+                                                     user.name))
+                    updateU = server.users.get(req_option)[0][0]
 
-                server.users.remove(updateU.id)
-                logging.info('removed user ' + updateU.name + ' with role ' + updateU.site_role)
-            except Exception as e:
-                logging.error('Error removing user: ' + user.name + ' ' + str(e))
-                error_flag = 1
-                continue
+                    server.users.remove(updateU.id)
+                    logging.info('removed user ' + updateU.name + ' with role ' + updateU.site_role)
+                except Exception as e:
+                    logging.error('Error removing user: ' + user.name + ' ' + str(e))
+                    error_flag = 1
+                    continue
+    except Exception as e:
+        logging.error('Error removing users: ' + str(e))
+        error_flag = 1
     return error_flag
 
 def update_user_group_members(user_list, update_operation, glsi_group_name):
     error_flag = 0
-    with server.auth.sign_in(tableau_auth):
-        # get
-        req_option = TSC.RequestOptions()
-        req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
-                                         TSC.RequestOptions.Operator.Equals,
-                                         glsi_group_name))
-
-        try:
-            group = server.groups.get(req_option)[0][0]
-        except Exception as e:
-            logging.error('Error getting group: ' + glsi_group_name + ' ' + str(e))
-
-        for user in user_list:
-            # add user to Group
-            # get user to update using their username
+    try:
+        with server.auth.sign_in(tableau_auth):
+            # get
+            req_option = TSC.RequestOptions()
+            req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
+                                             TSC.RequestOptions.Operator.Equals,
+                                             glsi_group_name))
             try:
-                req_option = TSC.RequestOptions()
-                req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
-                                                 TSC.RequestOptions.Operator.Equals,
-                                                 user.name))
-                updateU = server.users.get(req_option)[0][0]
-
-                if update_operation == UpdateOperation.ADD:
-                    server.groups.add_user(group,updateU.id)
-                    logging.info('added user ' + updateU.name + ' to Group ' + group.name)
-
-                if update_operation == UpdateOperation.REMOVE:
-                    server.groups.remove_user(group, updateU.id)
-                    logging.info('removed user ' + updateU.name + ' from Group ' + group.name)
-
+                group = server.groups.get(req_option)[0][0]
             except Exception as e:
-                    logging.error('Error with operation ' + str(update_operation.value) + ' user: ' + user.name + ' group: ' + group.name + str(e))
-                    error_flag=1
-                    continue
+                logging.error('Error getting group: ' + glsi_group_name + ' ' + str(e))
+
+            for user in user_list:
+                # add user to Group
+                # get user to update using their username
+                try:
+                    req_option = TSC.RequestOptions()
+                    req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
+                                                     TSC.RequestOptions.Operator.Equals,
+                                                     user.name))
+                    updateU = server.users.get(req_option)[0][0]
+
+                    if update_operation == UpdateOperation.ADD:
+                        server.groups.add_user(group,updateU.id)
+                        logging.info('added user ' + updateU.name + ' to Group ' + group.name)
+
+                    if update_operation == UpdateOperation.REMOVE:
+                        server.groups.remove_user(group, updateU.id)
+                        logging.info('removed user ' + updateU.name + ' from Group ' + group.name)
+
+                except Exception as e:
+                        logging.error('Error with operation ' + str(update_operation.value) + ' user: ' + user.name + ' group: ' + group.name + str(e))
+                        error_flag=1
+                        continue
+    except Exception as e:
+                        logging.error('Error updating user group members: ' + str(e))
+                        error_flag=1
     return error_flag
 
-def set_users_siteRole(user_list,siteRole):
+def set_users_siteRole(user_list, siteRole):
     error_flag=0
-    with server.auth.sign_in(tableau_auth):
+    try:
+        with server.auth.sign_in(tableau_auth):
 
-        for user in user_list:
-            # get user to remove using their username
-            try:
-                #get user to update using their username
-                req_option = TSC.RequestOptions()
-                req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
-                                                 TSC.RequestOptions.Operator.Equals,
-                                                 user.name))
-                updateU = server.users.get(req_option)[0][0]
+            for user in user_list:
+                # get user to remove using their username
+                try:
+                    #get user to update using their username
+                    req_option = TSC.RequestOptions()
+                    req_option.filter.add(TSC.Filter(TSC.RequestOptions.Field.Name,
+                                                     TSC.RequestOptions.Operator.Equals,
+                                                     user.name))
+                    updateU = server.users.get(req_option)[0][0]
 
-                # modify user info
-                updateU.site_role = siteRole
+                    # modify user info
+                    updateU.site_role = siteRole
 
-                updateU = server.users.update(updateU)
-                logging.info('updated user ' + updateU.name + ' with role ' + updateU.site_role)
-            except Exception as e:
-                logging.error('Error updating site role for user ' + user.name + ' with role ' + siteRole + str(e))
-                error_flag=1
-                continue
+                    updateU = server.users.update(updateU)
+                    logging.info('updated user ' + updateU.name + ' with role ' + updateU.site_role)
+                except Exception as e:
+                    logging.error('Error updating site role for user ' + user.name + ' with role ' + siteRole + str(e))
+                    error_flag=1
+                    continue
+    except Exception as e:
+        logging.error('Error seting user site roles: ' + str(e))
+        error_flag = 1
     return error_flag
 
 def initialise_logging(logdir,log_retention):
@@ -280,5 +293,5 @@ if settings: # if seeting read correctly
     ret=main()
 
     #if there was an error in main() then send email notification with log file attached
-    if (ret==1):
+    if (ret==1) and settings['EMAIL']['EMAIL_NOTIFICATIONS']:
         send_email(settings['EMAIL']['EMAIL_HOST_USER'], settings['EMAIL']['EMAIL_HOST_PASSWORD'], settings['EMAIL']['EMAIL_FROM'], settings['EMAIL']['EMAIL_TO'], settings['EMAIL']['EMAIL_SUBJECT'], settings['EMAIL']['EMAIL_BODY'], logfile)

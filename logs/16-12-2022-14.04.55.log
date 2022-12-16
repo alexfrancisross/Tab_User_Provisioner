@@ -1,0 +1,21 @@
+16-12-2022 14:04:55 | INFO | Snowflake Connector for Python Version: 2.9.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+16-12-2022 14:04:55 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+16-12-2022 14:04:55 | INFO | Setting use_openssl_only mode to False
+16-12-2022 14:04:55 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x000001D56E018880>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=fb1231b3-8e19-45d0-803e-97cdf374f66a&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=9060e72e-ce2d-4c48-b2ab-85256324a7b3
+16-12-2022 14:04:58 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x000001D56E019180>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=05bcf02e-47f1-4dc1-beb8-ffe3be681ba5&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=4b0de7b4-b40d-46d7-947d-3a269fbc8224
+16-12-2022 14:04:58 | ERROR | Error getting users from Snowflake: 250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting
+16-12-2022 14:04:58 | ERROR | Error creating user items list from Snowflake results: local variable 'curs' referenced before assignment
+16-12-2022 14:04:58 | INFO | get_users_from_snowflake() completed with 0 user records
+16-12-2022 14:04:58 | INFO | Snowflake Connector for Python Version: 2.9.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+16-12-2022 14:04:58 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+16-12-2022 14:04:58 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x000001D56E018B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=c90743c0-959a-4a96-bc4b-6fe284f597fd&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=33397304-4b9a-41b9-86e1-12a718aafda6
+16-12-2022 14:05:01 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x000001D56E019930>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=a37294ee-33e6-4110-826d-a94d30a1d9c4&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=3679349d-a0e6-479f-ac5f-6c4085d4136b
+16-12-2022 14:05:01 | ERROR | Error getting users from Snowflake: 250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting
+16-12-2022 14:05:01 | ERROR | Error creating user items list from Snowflake results: local variable 'curs' referenced before assignment
+16-12-2022 14:05:01 | INFO | get_users_from_snowflake() completed with 0 user records
+16-12-2022 14:05:01 | ERROR | Error provisioning users: 
+
+	401001: Signin Error
+		The personal access token you provided is invalid.
+16-12-2022 14:05:01 | INFO | closed
+16-12-2022 14:05:01 | INFO | closed

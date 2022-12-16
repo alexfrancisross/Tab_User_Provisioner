@@ -6,13 +6,13 @@ APP:
 
 #TASKS TO RUN (True or False)
 TASKS:
-  PROVISION_USERS : True #Adds Users To Tableau Cloud as Unlicenced
-  ADD_USER_GROUP_MEMBERS : True #Adds Users To Group Defined By GLSI_GROUP_NAME
-  SET_USERS_SITEROLE_AS_VIEWER : True #Sets User Role As A Viewer
-  REMOVE_USER_GROUP_MEMBERS : True #Removes Users From Group Defined By GLSI_GROUP_NAME
-  SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets User Role As A Viewer
+  PROVISION_USERS : True #Adds users to provision to tableau cloud/server as unlicenced
+  ADD_USER_GROUP_MEMBERS : True #Adds users to provision to group defined by GLSI_GROUP_NAME
+  SET_USERS_SITEROLE_AS_VIEWER : False #Sets newly added user role as a viewer
+  REMOVE_USER_GROUP_MEMBERS : True #Removes users to unlicense from group defined by GLSI_GROUP_NAME
+  SET_USERS_SITEROLE_AS_UNLICENSED : True #Sets user to unlicese as unlicensed
   ADD_UNLICENSED_USER_GROUP_MEMBERS : False #Adds unlicensed users back into GLSI_GROUP_NAME in case they log back into Tableau
-  REMOVE_USERS : False #Removes Users From Tableau Cloud
+  REMOVE_USERS : False #Removes users from tableau cloud/server (providing the do not own content)
 
 #TABLEAU ONLINE AUTHENTICATION VARIABLES
 TABLEAU:
@@ -22,7 +22,7 @@ TABLEAU:
   TABLEAU_SERVER : 'https://prod-uk-a.online.tableau.com'
   TABLEAU_SERVER_VERSION : '3.16'
   GLSI_GROUP_NAME: '<YOUR TABLEAU GROUP NAME>' #Group with Grant User Role On Sign In Enabled
-  AUTH_SETTING: 'SAML' #Set to SAML or ServerDefault for Tableau Authentication
+  AUTH_SETTING: 'SAML' #Set to SAML or ServerDefault for Tableau authentication
 
 #SNOWFLAKE AUTHENTICATION VARIABLES
 SNOWFLAKE:
@@ -37,6 +37,7 @@ SNOWFLAKE:
 
 #EMAIL NOTIFICATION VARIABLES
 EMAIL:
+  EMAIL_NOTIFICATIONS : True #Enable email notifications to be sent automatically in the case of an error
   EMAIL_SUBJECT  : '***Tableau Cloud user provisioning logs***'  # subject
   EMAIL_BODY  : "This is an automated message sent by the Tableau user provisioning script. \n\n
                  The script ran but some users were not added/removed successfully. \n\n

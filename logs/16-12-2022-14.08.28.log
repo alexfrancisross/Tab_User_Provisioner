@@ -1,0 +1,33 @@
+16-12-2022 14:08:28 | INFO | Snowflake Connector for Python Version: 2.9.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+16-12-2022 14:08:28 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+16-12-2022 14:08:28 | INFO | Setting use_openssl_only mode to False
+16-12-2022 14:08:28 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000239CD268D00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=d4e00b9e-a576-4bbc-8a12-c56e5db749ef&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=464f2a12-44e4-4480-9085-0916d0fd7812
+16-12-2022 14:08:30 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000239CD269600>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=604cc12f-d8bf-4b63-aed2-b867ec0aa826&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=5adf7bf4-3cd1-4482-a46a-62f703e9a8ee
+16-12-2022 14:08:30 | ERROR | Error getting users from Snowflake: 250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting
+16-12-2022 14:08:30 | ERROR | Error creating user items list from Snowflake results: local variable 'curs' referenced before assignment
+16-12-2022 14:08:30 | INFO | get_users_from_snowflake() completed with 0 user records
+16-12-2022 14:08:30 | INFO | Snowflake Connector for Python Version: 2.9.0, Python Version: 3.10.0, Platform: Windows-10-10.0.19044-SP0
+16-12-2022 14:08:30 | INFO | This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+16-12-2022 14:08:30 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000239CD268F70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=ffe58a2c-6489-4512-9180-0976b38039de&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=beece92b-5f25-4130-8655-9d65b3623b06
+16-12-2022 14:08:33 | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000239CD269DB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /session/v1/login-request?request_id=1b794b0e-274c-4d4d-8cfd-631ad00ef9ef&databaseName=%3CYOUR+SNOWFLAKE+DATABASE%3E&schemaName=%3CYOUR+SNOWFLAKE+SCHEMA%3E&warehouse=%3CYOUR+SNOWFLAKE+DW+NAME%3E&request_guid=ea64e595-2a39-452f-9d3a-d6e1bd3bc64c
+16-12-2022 14:08:33 | ERROR | Error getting users from Snowflake: 250001: 250001: Could not connect to Snowflake backend after 0 attempt(s).Aborting
+16-12-2022 14:08:33 | ERROR | Error creating user items list from Snowflake results: local variable 'curs' referenced before assignment
+16-12-2022 14:08:33 | INFO | get_users_from_snowflake() completed with 0 user records
+16-12-2022 14:08:34 | ERROR | Error provisioning users: 
+
+	401001: Signin Error
+		The personal access token you provided is invalid.
+16-12-2022 14:08:34 | ERROR | Error updating user group members: 
+
+	401001: Signin Error
+		The personal access token you provided is invalid.
+16-12-2022 14:08:34 | ERROR | Error updating user group members: 
+
+	401001: Signin Error
+		The personal access token you provided is invalid.
+16-12-2022 14:08:34 | ERROR | Error seting user site roles: 
+
+	401001: Signin Error
+		The personal access token you provided is invalid.
+16-12-2022 14:08:34 | INFO | closed
+16-12-2022 14:08:34 | INFO | closed
